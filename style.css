@@ -131,10 +131,10 @@ img {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 769px) {
+@media (min-width: 650px) {
   .container-main {
     flex-direction: row;
-    width: clamp(769px, 100%, 769px);
+    width: clamp(650px, 100%, 650px);
   }
   .container-image {
     width: 50%;
@@ -147,23 +147,12 @@ img {
     aspect-ratio: initial;
   }
   .txt-product-title {
-    font-size: 4.2rem;
     margin: 0.7em 0;
-  }
-  .txt-product-category,
-  .txt-product-description {
-    font-size: 1.8rem;
   }
   .container-price {
     display: flex;
     align-items: center;
     gap: 2em;
     margin: 4em 0 3em 0;
-  }
-  .product-price-current {
-    font-size: 4.2rem;
-  }
-  .product-price-og {
-    font-size: 1.8rem;
   }
 }
